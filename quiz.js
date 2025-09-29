@@ -1,14 +1,22 @@
-const submitBtn = document.getElementById("submit-answer");
-const feedback = document.getElementById("feedback");
+const input = document.querySelector('input');
+const button = document.querySelector('button');
 
-function checkAnswer() {
-  let correctAnswer = "4";
-  const userAnswer = document.querySelector('input[name="quiz"]:checked').value;
-  if (userAnswer === correctAnswer) {
-    feedback.textContent = "Correct! Well done.";
-  } else {
-    feedback.textContent = "That's incorrect. Try again!";
-  }
+function addValue(num1 , num2){
+    return num1 + num2;
+}
+function substractValue(num1 , num2){
+    return num1 - num2;
+}
+function multiplyValue(num1 , num2){
+    return num1 * num2;
+}
+function divideValue(num1 , num2){
+    return num1 + num2;
+}
+function clearInput(){
+input.value = '';
 }
 
-submitBtn.addEventListener("click", checkAnswer);
+function enterEqualBtn(num1 , num2){
+   
+}

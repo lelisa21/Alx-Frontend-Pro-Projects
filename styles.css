@@ -2,49 +2,50 @@
 body {
   font-family: Arial, sans-serif;
   padding: 20px;
+  background: #000;
+  color: #ffffff;
 }
 
-#quiz-container {
-  max-width: 600px;
+.container {
   margin: auto;
   padding: 20px;
+  width: 300px;
+ height: 250px;
   border: 1px solid #ddd;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-#quiz-question {
+.input-container {
   font-size: 20px;
   margin-bottom: 20px;
+ 
+}
+input{
+    border: 2px solid rgb(152, 146, 146);
+    width: 90%;
+    padding: 10px;
+    border: inset 4px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 3px;
+    outline: none;
+
 }
 
-input[type="radio"] {
-  margin-right: 10px;
+.button-container{
+    display: grid;
+    gap: 5px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
-label {
-  margin-right: 30px;
-  cursor: pointer;
+button{
+    padding: 5px;
+    margin: 2px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
 }
-
-#submit-answer {
-  display: block;
-  margin-top: 20px;
-  padding: 10px 20px;
-  background-color: #007bff;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 16px;
+button:hover{
+    background: #cbcaca;
+    cursor: pointer;
 }
-
-#submit-answer:hover {
-  background-color: #0056b3;
-}
-
-#feedback {
-  margin-top: 20px;
-  font-size: 18px;
-}
-

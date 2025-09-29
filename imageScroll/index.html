@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Slider</title>
+    <style>
+      body {
+  background: #333030;
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+      }
+      .container {
+        display: flex;
+        width: 900px;
+        overflow-x: scroll;
+   
+      }
+      .container .images{
+        display: grid;
+        width: 100%;
+        grid-template-columns: auto auto auto;
+        grid-gap: 20px;
+        flex: none;
+      }
+      .container::-webkit-scrollbar{
+        display: none;
+      }
+     img {
+        width: 250px;
+        padding: 5px;
+        filter: grayscale(50%);
+        transition: transform 0.5s;
+      }
+      img:hover{
+        transform: scale(1.1);
+        filter: grayscale(0);
+      }
+      .right,
+      .left {
+        font-size: 32px;
+        margin: 20px;
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="left">⏩</div>
+
+    <div class="container">
+      <div class="images">
+        <img src="images/1.jpg" alt="" />
+        <img src="images/2.jpg" alt="" />
+        <img src="images/3.png" alt="" />
+      </div>
+      <div class="images">
+        <img src="images/4.jpg" alt="" />
+        <img src="images/5.png" alt="" />
+        <img src="images/6.png" alt="" />
+      </div>
+      <div class="images">
+        <img src="images/7.png" alt="" />
+        <img src="images/8.png" alt="" />
+        <img src="images/9.png" alt="" />
+      </div>
+      <div class="images">
+        <img src="images/10.png" alt="" />
+        <img src="images/11.png" alt="" />
+        <img src="images/12.png" alt="" />
+      </div>
+    </div>
+    <div class="right">⏮️</div>
+  </body>
+  <script>
+
+    let container = document.querySelector(".container")
+    let back = document.querySelector(".left")
+    let front = document.querySelector(".right")
+    container.addEventListener("wheel" , () => {
+        
+    })
+  </script>
+</html>
