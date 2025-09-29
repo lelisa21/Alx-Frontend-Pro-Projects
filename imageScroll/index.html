@@ -6,35 +6,34 @@
     <title>Image Slider</title>
     <style>
       body {
-  background: #333030;
-  display: flex;
-  height: 100vh;
-  align-items: center;
-  justify-content: center;
+        background: #333030;
+        display: flex;
+        height: 100vh;
+        align-items: center;
+        justify-content: center;
       }
       .container {
         display: flex;
         width: 900px;
         overflow-x: scroll;
-   
       }
-      .container .images{
+      .container .images {
         display: grid;
         width: 100%;
         grid-template-columns: auto auto auto;
         grid-gap: 20px;
         flex: none;
       }
-      .container::-webkit-scrollbar{
+      .container::-webkit-scrollbar {
         display: none;
       }
-     img {
+      img {
         width: 250px;
         padding: 5px;
         filter: grayscale(50%);
         transition: transform 0.5s;
       }
-      img:hover{
+      img:hover {
         transform: scale(1.1);
         filter: grayscale(0);
       }
@@ -43,11 +42,12 @@
         font-size: 32px;
         margin: 20px;
         padding: 10px;
+        cursor: pointer;
       }
     </style>
   </head>
   <body>
-    <div class="left">⏩</div>
+    <div class="left">⏮️</div>
 
     <div class="container">
       <div class="images">
@@ -71,15 +71,23 @@
         <img src="images/12.png" alt="" />
       </div>
     </div>
-    <div class="right">⏮️</div>
+    <div class="right">⏩</div>
   </body>
   <script>
-
-    let container = document.querySelector(".container")
-    let back = document.querySelector(".left")
-    let front = document.querySelector(".right")
-    container.addEventListener("wheel" , () => {
-        
-    })
+    let container = document.querySelector(".container");
+    let back = document.querySelector(".left");
+    let front = document.querySelector(".right");
+    container.addEventListener("wheel", (event) => {
+      event.preventDefault();
+      container.scrollLeft += event.deltaY;
+    });
+    front.addEventListener("click", (event) => {
+      container.style.scrollBehavior = "smooth";
+      container.scrollLeft += 900;
+    });
+    back.addEventListener("click", () => {
+      container.style.scrollBehavior = "smooth";
+      container.scrollLeft -= 900;
+    });
   </script>
 </html>
