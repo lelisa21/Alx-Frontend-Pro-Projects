@@ -1,9 +1,9 @@
-document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener("DOMContentLoaded", function() {
   const form = document.getElementById("registration-form");
   const feedbackDiv = document.getElementById("form-feedback");
 
 
-form.addEventListener("submit", (event) => {
+form.addEventListener("submit", function (event){
   event.preventDefault();
   const username = document.getElementById("username").value.trim();
   const email = document.getElementById("email").value.trim();
@@ -20,7 +20,7 @@ form.addEventListener("submit", (event) => {
  }
  const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
  if(!regex.test(email)){
-    messages.push(" Email must be includes @ and . symbols, and  also have to be correct email format");
+    messages.push(" Email must be includes @ and . symbols");
     isValid = false;
  }
  if(password.length < 8){
