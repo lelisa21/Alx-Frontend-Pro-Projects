@@ -80,6 +80,7 @@
     container.addEventListener("wheel", (event) => {
       event.preventDefault();
       container.scrollLeft += event.deltaY;
+        container.style.scrollBehavior = "auto";
     });
     front.addEventListener("click", (event) => {
       container.style.scrollBehavior = "smooth";
