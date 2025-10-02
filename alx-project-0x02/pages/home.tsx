@@ -1,6 +1,5 @@
 import Card from "@/components/common/Card";
 import PostModal from "@/components/common/PostModal";
-import Header from "@/components/layout/Header";
 import { CardProps } from "@/interfaces";
 import { useState } from "react";
 
@@ -13,7 +12,6 @@ const Home: React.FC = () => {
   };
   return (
     <div>
-      <Header />
       <h1 className="text-2xl text-center m-5">
         Welcome To Home Page Explore Your Job
       </h1>
@@ -28,7 +26,7 @@ const Home: React.FC = () => {
         onClose={() => setIsModalOpen(false)}
         onSubmit={handleSubmit}
       />
-      <div className="grid gap-3 text-center">
+      <div className="grid gap-3  text-center">
         <Card
           title="Frontend Developer"
           content="A Frontend Developer builds the user-facing side of a website or application, a Backend Engineer focuses on the behind-the-scenes logic and databases, and a Software Developer is a broad term that can encompass either of these roles or other specialized areas of software creation. "
@@ -50,3 +48,5 @@ const Home: React.FC = () => {
 };
 
 export default Home;
+
+

@@ -1,10 +1,7 @@
 import Button from "@/components/common/Button";
-import Header from "@/components/layout/Header";
-
 const About = () => {
   return (
-    <div>
-      <Header />
+    <div className="h-screen">
       <h1 className="text-3xl font-bold pl-3 my-4">About Job Explorer</h1>
       <p className="mb-6">
         Job Explorer is a platform to discover and share job roles like Frontend

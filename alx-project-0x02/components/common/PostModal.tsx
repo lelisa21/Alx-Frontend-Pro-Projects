@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { CardProps } from "@/interfaces";
 import Button from "@/components/common/Button";
+import useLocalStorage from "@/hooks/useLocalStorage";
 
 interface PostModalProps {
   isOpen: boolean;
@@ -9,8 +10,8 @@ interface PostModalProps {
 }
 
 const PostModal: React.FC<PostModalProps> = ({ isOpen, onClose, onSubmit }) => {
-  const [title, setTitle] = useState("");
-  const [content, setContent] = useState("");
+  const [title, setTitle] = useLocalStorage<string>("myTitle" , "");
+  const [content, setContent] = useLocalStorage<string>("myContent" , "");;
   const [titleError, setTitleError] = useState<string | null>(null);
   const [contentError, setContentError] = useState<string | null>(null);
 
@@ -36,8 +37,9 @@ const PostModal: React.FC<PostModalProps> = ({ isOpen, onClose, onSubmit }) => {
     return isValid;
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+    console.log('Submitted:', { title, content });
     if (validateForm()) {
       onSubmit({ title, content });
       setTitle("");
