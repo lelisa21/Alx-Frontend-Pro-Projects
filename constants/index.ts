@@ -16,9 +16,26 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps []  =  [
       shower: "3",
       occupants: "4-6"
     },
-    image: "/assets/image 1.png",
-    discount: ""
+    image: "/assets/image 1.png", description : "Feel like exploring the Dominican? Start the day with a hike on one of Playa Moron’s many trails. Weave your way around the gated community to find secluded sandy coves for swimming and paddle boarding. When you’Feel like exploring the Dominican? Start the day with a hike on one of Playa Moron’s many trails. Weave your way around the gated community to find secluded sandy coves for swimming and paddle boarding. When you’re ready to chill with friends, the beach house pool awaits. Spend the night entertaining in the outdoor lounge, sipping drinks in the hot tub, and gazing out over incredible ocean views." ,
+    discount: "",
+    reviews: [
+      {
+        id: "r1",
+        name: "Kerry",
+        avatar: "/avatars/kerry.png",
+        rating: 5,
+        comment: "I simply don’t have the words to describe how incredibly beautiful the villa and its surroundings are. This is a wonderful remote spot that is simply breathtaking",
+      },
+      {
+        id: "r2",
+        name: "Pooja",
+        avatar: "/avatars/pooja.png",
+        rating: 4,
+        comment: "We stayed at this home for a family vacation of 7 adults (including 3 couples, 1 baby) and had a fantastic stay. The house was BEAUTIFUL and honestly better than shown in pictures,",
+      },
+    ],
   },
+  
   {
     name: "Mountain Escape Chalet",
     address: {
@@ -34,7 +51,7 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps []  =  [
       shower: "2",
       occupants: "5-7"
     },
-    image: "/assets/image 1.png",
+    image: "/assets/image 1.png", description : "Feel like exploring the Dominican? Start the day with a hike on one of Playa Moron’s many trails. Weave your way around the gated community to find secluded sandy coves for swimming and paddle boarding. When you’Feel like exploring the Dominican? Start the day with a hike on one of Playa Moron’s many trails. Weave your way around the gated community to find secluded sandy coves for swimming and paddle boarding. When you’re ready to chill with friends, the beach house pool awaits. Spend the night entertaining in the outdoor lounge, sipping drinks in the hot tub, and gazing out over incredible ocean views." ,
     discount: "30"
   },
   {
@@ -52,7 +69,7 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps []  =  [
       shower: "1",
       occupants: "2-3"
     },
-    image: "/assets/image 1.png",
+    image: "/assets/image 1.png", description : "Feel like exploring the Dominican? Start the day with a hike on one of Playa Moron’s many trails. Weave your way around the gated community to find secluded sandy coves for swimming and paddle boarding. When you’Feel like exploring the Dominican? Start the day with a hike on one of Playa Moron’s many trails. Weave your way around the gated community to find secluded sandy coves for swimming and paddle boarding. When you’re ready to chill with friends, the beach house pool awaits. Spend the night entertaining in the outdoor lounge, sipping drinks in the hot tub, and gazing out over incredible ocean views." ,
     discount: ""
   },
   {
@@ -70,7 +87,7 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps []  =  [
       shower: "2",
       occupants: "2-4"
     },
-    image: "/assets/image 1.png",
+    image: "/assets/image 1.png", description : "Feel like exploring the Dominican? Start the day with a hike on one of Playa Moron’s many trails. Weave your way around the gated community to find secluded sandy coves for swimming and paddle boarding. When you’Feel like exploring the Dominican? Start the day with a hike on one of Playa Moron’s many trails. Weave your way around the gated community to find secluded sandy coves for swimming and paddle boarding. When you’re ready to chill with friends, the beach house pool awaits. Spend the night entertaining in the outdoor lounge, sipping drinks in the hot tub, and gazing out over incredible ocean views." ,
     discount: "15"
   },
   {
@@ -88,7 +105,7 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps []  =  [
       shower: "2",
       occupants: "4-6"
     },
-    image: "/assets/image 1.png",
+    image: "/assets/image 1.png", description : "Feel like exploring the Dominican? Start the day with a hike on one of Playa Moron’s many trails. Weave your way around the gated community to find secluded sandy coves for swimming and paddle boarding. When you’Feel like exploring the Dominican? Start the day with a hike on one of Playa Moron’s many trails. Weave your way around the gated community to find secluded sandy coves for swimming and paddle boarding. When you’re ready to chill with friends, the beach house pool awaits. Spend the night entertaining in the outdoor lounge, sipping drinks in the hot tub, and gazing out over incredible ocean views.",
     discount: "20"
   },
   {
@@ -106,7 +123,7 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps []  =  [
       shower: "4",
       occupants: "8-10"
     },
-    image: "/assets/image 1.png",
+    image: "/assets/image 1.png", description : "Feel like exploring the Dominican? Start the day with a hike on one of Playa Moron’s many trails. Weave your way around the gated community to find secluded sandy coves for swimming and paddle boarding. When you’Feel like exploring the Dominican? Start the day with a hike on one of Playa Moron’s many trails. Weave your way around the gated community to find secluded sandy coves for swimming and paddle boarding. When you’re ready to chill with friends, the beach house pool awaits. Spend the night entertaining in the outdoor lounge, sipping drinks in the hot tub, and gazing out over incredible ocean views.",
     discount: ""
   },
   {
@@ -124,7 +141,7 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps []  =  [
       shower: "3",
       occupants: "4-5"
     },
-    image: "/assets/image 1.png",
+    image: "/assets/image 1.png", description : "Feel like exploring the Dominican? Start the day with a hike on one of Playa Moron’s many trails. Weave your way around the gated community to find secluded sandy coves for swimming and paddle boarding. When you’Feel like exploring the Dominican? Start the day with a hike on one of Playa Moron’s many trails. Weave your way around the gated community to find secluded sandy coves for swimming and paddle boarding. When you’re ready to chill with friends, the beach house pool awaits. Spend the night entertaining in the outdoor lounge, sipping drinks in the hot tub, and gazing out over incredible ocean views.",
     discount: "10"
   },
   {
@@ -142,7 +159,7 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps []  =  [
       shower: "3",
       occupants: "5-6"
     },
-    image: "/assets/image 1.png",
+    image: "/assets/image 1.png", description : "Feel like exploring the Dominican? Start the day with a hike on one of Playa Moron’s many trails. Weave your way around the gated community to find secluded sandy coves for swimming and paddle boarding. When you’Feel like exploring the Dominican? Start the day with a hike on one of Playa Moron’s many trails. Weave your way around the gated community to find secluded sandy coves for swimming and paddle boarding. When you’re ready to chill with friends, the beach house pool awaits. Spend the night entertaining in the outdoor lounge, sipping drinks in the hot tub, and gazing out over incredible ocean views.",
     discount: "25"
   },
   {
@@ -160,7 +177,7 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps []  =  [
       shower: "1",
       occupants: "2-3"
     },
-    image: "/assets/image 1.png",
+    image: "/assets/image 1.png", description : "Feel like exploring the Dominican? Start the day with a hike on one of Playa Moron’s many trails. Weave your way around the gated community to find secluded sandy coves for swimming and paddle boarding. When you’Feel like exploring the Dominican? Start the day with a hike on one of Playa Moron’s many trails. Weave your way around the gated community to find secluded sandy coves for swimming and paddle boarding. When you’re ready to chill with friends, the beach house pool awaits. Spend the night entertaining in the outdoor lounge, sipping drinks in the hot tub, and gazing out over incredible ocean views.",
     discount: ""
   },
   {
@@ -178,7 +195,7 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps []  =  [
       shower: "2",
       occupants: "5-7"
     },
-    image: "/assets/image 1.png",
+    image: "/assets/image 1.png", description : "Feel like exploring the Dominican? Start the day with a hike on one of Playa Moron’s many trails. Weave your way around the gated community to find secluded sandy coves for swimming and paddle boarding. When you’Feel like exploring the Dominican? Start the day with a hike on one of Playa Moron’s many trails. Weave your way around the gated community to find secluded sandy coves for swimming and paddle boarding. When you’re ready to chill with friends, the beach house pool awaits. Spend the night entertaining in the outdoor lounge, sipping drinks in the hot tub, and gazing out over incredible ocean views.",
     discount: "40"
   },
   {
@@ -196,7 +213,7 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps []  =  [
       shower: "4",
       occupants: "6-8"
     },
-    image: "/assets/image 1.png",
+    image: "/assets/image 1.png", description : "Feel like exploring the Dominican? Start the day with a hike on one of Playa Moron’s many trails. Weave your way around the gated community to find secluded sandy coves for swimming and paddle boarding. When you’Feel like exploring the Dominican? Start the day with a hike on one of Playa Moron’s many trails. Weave your way around the gated community to find secluded sandy coves for swimming and paddle boarding. When you’re ready to chill with friends, the beach house pool awaits. Spend the night entertaining in the outdoor lounge, sipping drinks in the hot tub, and gazing out over incredible ocean views.",
     discount: "50"
   },
   {
@@ -214,7 +231,7 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps []  =  [
       shower: "3",
       occupants: "4-6"
     },
-    image: "/assets/image 1.png",
+    image: "/assets/image 1.png", description : "Feel like exploring the Dominican? Start the day with a hike on one of Playa Moron’s many trails. Weave your way around the gated community to find secluded sandy coves for swimming and paddle boarding. When you’Feel like exploring the Dominican? Start the day with a hike on one of Playa Moron’s many trails. Weave your way around the gated community to find secluded sandy coves for swimming and paddle boarding. When you’re ready to chill with friends, the beach house pool awaits. Spend the night entertaining in the outdoor lounge, sipping drinks in the hot tub, and gazing out over incredible ocean views.",
     discount: ""
   },
   {
@@ -232,7 +249,7 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps []  =  [
       shower: "2",
       occupants: "2-4"
     },
-    image: "/assets/image 1.png",
+    image: "/assets/image 1.png", description : "Feel like exploring the Dominican? Start the day with a hike on one of Playa Moron’s many trails. Weave your way around the gated community to find secluded sandy coves for swimming and paddle boarding. When you’Feel like exploring the Dominican? Start the day with a hike on one of Playa Moron’s many trails. Weave your way around the gated community to find secluded sandy coves for swimming and paddle boarding. When you’re ready to chill with friends, the beach house pool awaits. Spend the night entertaining in the outdoor lounge, sipping drinks in the hot tub, and gazing out over incredible ocean views.",
     discount: "35"
   },
   {
@@ -251,7 +268,8 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps []  =  [
       occupants: "2"
     },
     image: "/assets/image 1.png",
-    discount: ""
+   description : "Feel like exploring the Dominican? Start the day with a hike on one of Playa Moron’s many trails. Weave your way around the gated community to find secluded sandy coves for swimming and paddle boarding. When you’Feel like exploring the Dominican? Start the day with a hike on one of Playa Moron’s many trails. Weave your way around the gated community to find secluded sandy coves for swimming and paddle boarding. When you’re ready to chill with friends, the beach house pool awaits. Spend the night entertaining in the outdoor lounge, sipping drinks in the hot tub, and gazing out over incredible ocean views." , 
+     discount: ""
   },
   {
     name: "Luxury Safari Lodge",
@@ -268,7 +286,7 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps []  =  [
       shower: "4",
       occupants: "6-8"
     },
-    image: "/assets/image 1.png",
+    image: "/assets/image 1.png", description : "",
     discount: "20"
   },
   {
@@ -286,7 +304,7 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps []  =  [
       shower: "1",
       occupants: "2-4"
     },
-    image: "/assets/image 1.png",
+    image: "/assets/image 1.png", description : "",
     discount: "25"
   },
   {
@@ -304,7 +322,7 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps []  =  [
       shower: "3",
       occupants: "6-8"
     },
-    image: "/assets/image 1.png",
+    image: "/assets/image 1.png", description : "",
     discount: "30"
   },
   {
@@ -322,7 +340,7 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps []  =  [
       shower: "3",
       occupants: "4-5"
     },
-    image: "/assets/image 1.png",
+    image: "/assets/image 1.png", description : "",
     discount: ""
   },
   {
@@ -340,7 +358,7 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps []  =  [
       shower: "5",
       occupants: "8-10"
     },
-    image: "/assets/image 1.png",
+    image: "/assets/image 1.png", description : "Feel like exploring the Dominican? Start the day with a hike on one of Playa Moron’s many trails. Weave your way around the gated community to find secluded sandy coves for swimming and paddle boarding. When you’Feel like exploring the Dominican? Start the day with a hike on one of Playa Moron’s many trails. Weave your way around the gated community to find secluded sandy coves for swimming and paddle boarding. When you’re ready to chill with friends, the beach house pool awaits. Spend the night entertaining in the outdoor lounge, sipping drinks in the hot tub, and gazing out over incredible ocean views." ,
     discount: "60"
   },
   {
@@ -358,7 +376,7 @@ export const PROPERTYLISTINGSAMPLE: PropertyProps []  =  [
       shower: "3",
       occupants: "4-5"
     },
-    image: "/assets/image 1.png",
+    image: "/assets/image 1.png", description : "Feel like exploring the Dominican? Start the day with a hike on one of Playa Moron’s many trails. Weave your way around the gated community to find secluded sandy coves for swimming and paddle boarding. When you’Feel like exploring the Dominican? Start the day with a hike on one of Playa Moron’s many trails. Weave your way around the gated community to find secluded sandy coves for swimming and paddle boarding. When you’re ready to chill with friends, the beach house pool awaits. Spend the night entertaining in the outdoor lounge, sipping drinks in the hot tub, and gazing out over incredible ocean views." ,
     discount: ""
   }
 ];

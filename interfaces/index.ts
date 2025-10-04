@@ -40,7 +40,15 @@ export interface ModalProps {
   closeOnOverlayClick?: boolean;
 }
 
-// interfaces/index.ts
+export interface ReviewProps {
+  id: string;
+  name: string;
+  avatar: string;
+  rating: number;
+  date?: string;
+  tripType?: string;
+  comment: string;
+}
 export interface PropertyProps {
   name: string;
   address: {
@@ -59,4 +67,5 @@ export interface PropertyProps {
   image: string;
   discount: string;
   description: string;
+  reviews?: ReviewProps[];
 }

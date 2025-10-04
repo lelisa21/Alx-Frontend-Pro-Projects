@@ -16,7 +16,7 @@ const PropertyDetail: React.FC<{ property: PropertyProps }> = ({ property }) => 
       </div>
 
       {/* Description */}
-      <div className="mt-4">
+      <div className="mt-4 text-gray-900">
         <h2 className="text-2xl font-semibold">Description</h2>
         <p>{property.description}</p>
       </div>
