@@ -1,10 +1,9 @@
-
 export interface ButtonProps {
   children: React.ReactNode;
   onClick?: (event: React.MouseEvent<HTMLButtonElement>) => void;
-  type?: 'button' | 'submit' | 'reset';
-  variant?: 'primary' | 'secondary' | 'outline' | 'ghost';
-  size?: 'sm' | 'md' | 'lg'| 'xl';
+  type?: "button" | "submit" | "reset";
+  variant?: "primary" | "secondary" | "outline" | "ghost";
+  size?: "sm" | "md" | "lg" | "xl";
   disabled?: boolean;
   className?: string;
   isLoading?: boolean;
@@ -14,8 +13,8 @@ export interface CardProps {
   children: React.ReactNode;
   title?: string;
   footer?: React.ReactNode;
-  variant?: 'default' | 'elevated' | 'outlined';
-  padding?: 'none' | 'sm' | 'md' | 'lg'| 'xl';
+  variant?: "default" | "elevated" | "outlined";
+  padding?: "none" | "sm" | "md" | "lg" | "xl";
   className?: string;
   onClick?: () => void;
 }
@@ -25,7 +24,7 @@ export interface InputProps {
   value: string;
   onChange: (value: string) => void;
   placeholder?: string;
-  type?: 'text' | 'email' | 'password' | 'number';
+  type?: "text" | "email" | "password" | "number";
   error?: string;
   disabled?: boolean;
   required?: boolean;
@@ -37,10 +36,9 @@ export interface ModalProps {
   onClose: () => void;
   title?: string;
   children: React.ReactNode;
-  size?: 'sm' | 'md' | 'lg' | 'xl';
+  size?: "sm" | "md" | "lg" | "xl";
   closeOnOverlayClick?: boolean;
 }
-
 
 // interfaces/index.ts
 export interface PropertyProps {
@@ -60,4 +58,5 @@ export interface PropertyProps {
   };
   image: string;
   discount: string;
+  description: string;
 }
