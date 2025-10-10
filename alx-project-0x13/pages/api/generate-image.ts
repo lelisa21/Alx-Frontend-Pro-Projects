@@ -1,7 +1,6 @@
 import { HEIGHT , WIDTH } from "@/constants";
 import { RequestProps } from "@/interfaces";
 import { NextApiRequest, NextApiResponse } from "next";
-import { text } from "stream/consumers";
 
 const handler = async (request: NextApiRequest , response: NextApiResponse) => {
     const gptApiKey = process.env.NEXT_PUBLIC_GPT_API_KEY;
@@ -42,3 +41,4 @@ const handler = async (request: NextApiRequest , response: NextApiResponse) => {
       return response.status(500).json({error: "Internal server error"})
     }
 }
+export default handler;
