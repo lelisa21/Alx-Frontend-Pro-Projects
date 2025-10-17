@@ -1,0 +1,44 @@
+{
+  "data": {
+    "characters": {
+      "info": {
+        "count": 826,
+        "pages": 42,
+        "next": 5,
+        "prev": 3
+      },
+      "results": [
+        {
+          "id": "61",
+          "name": "Campaign Manager Morty",
+          "status": "Dead",
+          "image": "https://rickandmortyapi.com/api/character/avatar/61.jpeg"
+        },
+        {
+          "id": "62",
+          "name": "Canklanker Thom",
+          "status": "Dead",
+          "image": "https://rickandmortyapi.com/api/character/avatar/62.jpeg"
+        },
+        {
+          "id": "63",
+          "name": "Centaur",
+          "status": "Alive",
+          "image": "https://rickandmortyapi.com/api/character/avatar/63.jpeg"
+        },
+        {
+          "id": "64",
+          "name": "Chris",
+          "status": "Dead",
+          "image": "https://rickandmortyapi.com/api/character/avatar/64.jpeg"
+        },
+        {
+          "id": "65",
+          "name": "Coach Feratu (Balik Alistane)",
+          "status": "Dead",
+          "image": "https://rickandmortyapi.com/api/character/avatar/65.jpeg"
+        }
+      ]
+    }
+  }
+}
