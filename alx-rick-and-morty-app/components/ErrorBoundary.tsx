@@ -1,5 +1,5 @@
 import React ,{ ReactNode } from "react";
-import * as sentry from "@sentry/react"
+import * as Sentry from "@sentry/react"
 
 interface State {
   hasError: boolean;
@@ -21,7 +21,7 @@ class ErrorBoundary extends React.Component<ErrorBoundaryProps, State> {
   }
   componentDidCatch(error: Error, errorInfo: React.ErrorInfo): void {
     // send only serializable extras as a plain object
-    sentry.captureException(error, { extra: { componentStack: errorInfo.componentStack } });
+    sentry.captureException(error, {extra: errorInfo})
   }
 
    render(){
