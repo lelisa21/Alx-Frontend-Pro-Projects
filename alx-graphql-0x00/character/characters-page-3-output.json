@@ -1,0 +1,44 @@
+{
+  "data": {
+    "characters": {
+      "info": {
+        "count": 826,
+        "pages": 42,
+        "next": 4,
+        "prev": 2
+      },
+      "results": [
+        {
+          "id": "41",
+          "name": "Big Boobed Waitress",
+          "status": "Alive",
+          "image": "https://rickandmortyapi.com/api/character/avatar/41.jpeg"
+        },
+        {
+          "id": "42",
+          "name": "Big Head Morty",
+          "status": "unknown",
+          "image": "https://rickandmortyapi.com/api/character/avatar/42.jpeg"
+        },
+        {
+          "id": "43",
+          "name": "Big Morty",
+          "status": "Dead",
+          "image": "https://rickandmortyapi.com/api/character/avatar/43.jpeg"
+        },
+        {
+          "id": "44",
+          "name": "Body Guard Morty",
+          "status": "Dead",
+          "image": "https://rickandmortyapi.com/api/character/avatar/44.jpeg"
+        },
+        {
+          "id": "45",
+          "name": "Bill",
+          "status": "Alive",
+          "image": "https://rickandmortyapi.com/api/character/avatar/45.jpeg"
+        }
+      ]
+    }
+  }
+}
